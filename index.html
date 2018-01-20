@@ -20,142 +20,14 @@ console.log("current score: "+score);
 		<br>
 	<div id="game">
 	</div>
+	<div id="intro"></div>
+	<div id="score"></div>
 	<div id=guessleft></div>
+	<div id="wrongguesses"></div>
 	<div id="winner"></div>
 
-<script type="text/javascript">
-	//.join if there are commas
-	//sceret words
-	var arrayword = ["bulldog", "corgi", "shiba"];
-	var counter=10;
-	var isDone=false;
-
-	//random generated word
-	var arrayrand = arrayword[Math.floor(Math.random()*arrayword.length)];
-	//creates a blank array for user to start
-	var guessArray = blankArray(arrayrand);
- 	//prints out the blank array for user to see
- 	document.getElementById("game").innerHTML = guessArray.join("");
-
- 	document.getElementById("guessleft").innerHTML = "<br><br>Guesses Left: "+counter;
- 	
-
-//debugging
-console.log(arrayrand);
-
-
-	document.onkeyup = function()
-	{
-		if(counter>0)
-		{
-			var userguess = String.fromCharCode(event.keyCode).toLowerCase();
-		console.log("userGuess: " +userguess);
-		console.log("secret: " +arrayrand);
-
-		document.getElementById("game").innerHTML = fillArray(userguess, guessArray, arrayrand).join("");
-		document.getElementById("guessleft").innerHTML = "<br><br>Guesses Left: "+counter;
-
-		isDone=compare(guessArray, arrayrand);
-		
-			if(isDone&&counter>0)
-			{
-			document.getElementById("winner").innerHTML = "<br><br><h2>Congrats! YOU WIN!!</h2>";
-			}
-
-		}
-		
-		else
-		{
-			document.getElementById("guessleft").innerHTML = "<br><br>I'm sorry you ran out of guesses";
-			document.getElementById("winner").innerHTML = "<br><br><h2>I'M SORRY YOU LOST.<br>PLEASE TRY AGAIN</h2>";
-		}
-
-
-
-		
-
-
-	}
-	//function to split a string into an array of chars
-	//might need to return the array of chars
-	function charArray(userword)
-	{
-		var myArray;
-		myArray=userword.split("",userword.length);
-		for(var x=0; x<userword.length;x++)
-		{
-		}
-		return myArray;
-			
-	}
-	//grabs the secret words start the game with the blank array from the secretword
-	function blankArray(blankword)
-	{
-		var blankArray;
-		blankArray=blankword.split("",blankword.length);
-
-		for(var x=0; x<blankArray.length;x++)
-		{
-			blankArray[x]="-";
-			console.log(blankArray[x]);
-		}
-		return blankArray;
-
-	}
-
-	//fillArray method takes in user guess and updates the guessArray.
-	//the user's guess is compared to the secretArray, if found update the char, else lose a guess
-	function fillArray(guess, guessArray,secretArray)
-	{
-		var isFound=false;
-		for(var x=0; x<guessArray.length; x++)
-		{
-			if(guess==secretArray[x])
-			{
-				guessArray[x]=guess;
-				isFound=true;
-			}
-		}
-		//if there are no matches update the counter (take a point away)
-		if(!isFound)
-		{
-			--counter;
-		}
-		return guessArray;
-	}
-
-	//function to check if win by comparing
-	//if same score++
-	function compare(guessArray, secretArray)
-	{
-		var isSame=true;
-		for( var x=0; x<secretArray.length;x++)
-		{
-			if(guessArray[x]!=secretArray[x])
-			{
-				isSame=false;
-			}
-		}
-		return isSame;
-
-	}
-
-	//function to check if the game is over
-	//if complete || no more guesses
-	//if over display error msg
-	//return bool isEnd
-
-	//image changes depending on the secretArray
-	//will look at the subindex of the secretArray and display the matching image associated to the secretArray
-	function imgchange()
-	{
-		document.getElementById("game").innerHTML="<img src='https://media1.tenor.com/images/cc7c1a94f9697255c66ae7c8eb3f5777/tenor.gif?itemid=5452691'>"
-	}
-
+<script src="assets/javascript/game.js" type="text/javascript">
 	
-
-	
-
 </script>
 
 
