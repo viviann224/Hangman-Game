@@ -13,6 +13,47 @@
 	min-height: 100%;
 }
 
+#hint
+{
+	font-family: 'IM Fell French Canon SC', serif;
+
+}
+
+#dash
+{
+	letter-spacing: 5px;
+	font-size:30px;
+	font-family: 'IM Fell French Canon SC', serif;
+	color:black;
+}
+
+#wrongguesses
+{
+	letter-spacing: 5px;
+	font-size:20px;
+	font-family: 'IM Fell French Canon SC', serif;
+	color:#c3c4c9;
+
+}
+
+strong
+{
+	color:#7c6f79;
+}
+
+#main
+{
+	margin-top:5%;
+	margin-bottom:5%;
+	margin-left:20%;
+	margin-right: 20%;
+	padding:2%;
+	background-color: white;
+	color:black;
+	font-size:12px;
+	border: 1px double grey;
+	text-align: center;
+}
 
 body
 {
@@ -21,7 +62,9 @@ body
 	color:#777777;
 	background-color:#ffffff;
 	line-height:150%;
-	background-image: url("../../images/bg.png");
+	background-image: url("../images/bg.png");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 	font-size:12px;
 	font-family:"Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -33,20 +76,34 @@ h1, h2
 
 h1
 {
-	font-size:20px;
+	font-size:40px;
 	font-weight: strong;
-	color:white;
+	color:566568;
+	font-family: 'Cinzel Decorative', cursive;
 }
 
 h2
 {
 	font-size:18px;
-	color:#4aaaa5;
+	color:#225372;
 	font-weight:strong;
 	background-color: white;
+	font-family: 'Spectral SC', serif;
 	padding:15px;
-	p
+	
 }
 
+#title
+{
+	text-align: center;
+	line-height: 0.2;
+}
+
+#hint1, #hint2, #hint3, #hint4, #hint5, #hint6,
+#hint7, #hint8, #hint9, #hint10, #hint11,#hint12
+{
+	width:25%;
+	border: 1px double grey;
+}
 
 

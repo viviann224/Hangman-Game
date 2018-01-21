@@ -3,6 +3,15 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Hangman</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!--default css sheets-->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<!--css sheet-->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<!--google font-->
+		<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700|IM+Fell+French+Canon+SC|Spectral+SC" rel="stylesheet">
 </head>
 <!--
 console.log("current score: "+score);
@@ -10,27 +19,42 @@ console.log("current score: "+score);
 -->
 
 <body>
-	<h1>Hangman</h1>
-	<p>Welcome to hangman. Please choose a letter to get started.
-
-	<p>Please a character to guess 
+<div class="container">
+<div id="main">
+	<div id="title">
+		<h1>Hangman</h1>
+		<h2>Bulldog Moods</h2>
+	</div>
+	<p>Welcome to hangman bulldog edition. Please choose a letter to get started.</p>
 	<br>The game is over when you complete the word or run out of guesses.
 	<br>You have max 10 guesses
-		
+	<div id="row">
+		<div id="col-md-8">
+			<div id="hint"></div>
+		</div>
+		<div id="col-md-4">
+			<div id="score"></div>
+			<div id=guessleft></div>
+		</div>
+
+	</div>
 		<br>
 	<div id="game">
 	</div>
+	<div id="dash"></div>
 	<div id="intro"></div>
-	<div id="score"></div>
-	<div id=guessleft></div>
-	<div id="wrongguesses"></div>
 	<div id="winner"></div>
-
-<script src="assets/javascript/game.js" type="text/javascript">
 	
-</script>
 
+	
+	<div id="wrongguesses"></div>
+	
 
+	<script src="assets/javascript/game.js" type="text/javascript">
+		
+	</script>
 
+</div>
+</div>
 </body>
 </html>
