@@ -9,11 +9,11 @@ If the program is not running automatically, please make sure you have all the p
 Hangman was created to showcase the use of JavaScript, CSS, and HTML skills to provide a game for the user to enjoy dynamic visual interactions when played.
 
 **PREREQUISITES**:
--Google Chrome Internet Browser
--JavaScript enabled on Google Chrome
--Access to Google Font packages
--CDN support on Bootstrap
--Perfered viewing in English language :us:
+- Google Chrome Internet Browser
+- JavaScript enabled on Google Chrome
+- Access to Google Font packages
+- CDN support on Bootstrap
+- Perfered viewing in English language :us:
 
 **HOW TO PLAY**:
 The game starts when the page is loaded. There is a secret word that is autopopulated with dashes, "-", for the user to guess the word. Before typing a letter from the keyboard, it is useful to look at the "HINT" on the center left side of the page.
@@ -24,10 +24,10 @@ When the user runs out of guesses or if the user guess correctly, a display mess
 The game will continue to right after the prompt to either restart or continue.
 
 **BUILT WITH**:
--Sublime Text
--Chrome DevTools
--Bootstrap
--Adobe Photoshop CC 2015.5
+- Sublime Text
+- Chrome DevTools
+- Bootstrap
+- Adobe Photoshop CC 2015.5
 
 **VERSION**:
 This is the first version of Hangman
