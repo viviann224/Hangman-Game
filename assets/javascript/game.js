@@ -1,6 +1,6 @@
 //create a word array
 //sceret words
-var arrayword = ["twins", "hungry", "doughnut", "longhorn", "confused", "snow", "tounge", "music", "yoda", "grumpy", "sleeping", "drink"];
+var arrayword = ["twins", "hungry", "doughnut", "longhorn", "confused", "snow", "tongue", "music", "yoda", "grumpy", "sleeping", "drink"];
 //creates an array of the secret array
 var arrayrand;
 //creates an array for the user
@@ -28,6 +28,7 @@ console.log(arrayrand);
 //gets user to guess when the user presses a key
 document.onkeyup = function()
 {
+	document.getElementById("winner").innerHTML = "<br><br>";
 	//waits for user input and checks if there are guesses left
 	if(counter>0)
 	{
@@ -36,6 +37,7 @@ document.onkeyup = function()
 		//debugging purpose to verify user compare to secret debugging
 console.log("userGuess: " +userguess);
 console.log("secret: " +arrayrand);
+
 
 		//calls fillArray() function and passes in the guess, the user'sarray, and the secret array
 		//to update the user's blank array
@@ -70,6 +72,7 @@ console.log("secret: " +arrayrand);
 			//get a new word and blank array
 			getArray();
 		}
+
 		//displays how many guesses left for the user
 		document.getElementById("guessleft").innerHTML = "<br><br>Guesses Left: "+counter;
 		//displays the array of wrong letters
