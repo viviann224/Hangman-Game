@@ -1,6 +1,6 @@
 /////////////////////////////////////////////
 //Vivian Tuong Nguyen
-//Javascript code for Hangman [Bulldog Moods]
+//Javascript code for Hangman [Bulldog Edition]
 ///////////////////////////////////////////////
 
 //create a word array of sceret words
