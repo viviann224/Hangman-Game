@@ -189,80 +189,69 @@ function imgchange()
 	if(arrayword.indexOf(arrayrand)==0)
 	{
 		console.log("inside the loop"+arrayword.indexOf(arrayrand))
-		document.getElementById("hint").innerHTML="Hint:<br> are you seeing double?<br><img src='assets/images/hint1.png' alt='hint1' id='hint1'>"
+		document.getElementById("hint").innerHTML="<h3>HINT:</h3> Are you seeing double?<br><img src='assets/images/hint1.png' alt='hint1' id='hint1'>"
 
 	}
 	else if(arrayword.indexOf(arrayrand)==1)
 	{
 		console.log("inside the loop"+arrayword.indexOf(arrayrand))
-		document.getElementById("hint").innerHTML="Hint:<br> I love TacoDeli, if I'm not Hangry, I am.. what?<br><img src='assets/images/hint2.png' alt='hint2' id='hint2'>"
+		document.getElementById("hint").innerHTML="<h3>HINT:</h3> I love TacoDeli, if I'm not Hangry, I am.. what?<br><img src='assets/images/hint2.png' alt='hint2' id='hint2'>"
 
 
 	}
 	else if(arrayword.indexOf(arrayrand)==2)
 	{
 		console.log("inside the loop"+arrayword.indexOf(arrayrand))
-		document.getElementById("hint").innerHTML="Hint:<br> My human says this is a google mini and not a.. what?<br><img src='assets/images/hint3.png' alt='hint3' id='hint3'>"
+		document.getElementById("hint").innerHTML="<h3>HINT:</h3> My human says this is a google mini and not a.. what?<br><img src='assets/images/hint3.png' alt='hint3' id='hint3'>"
 
 	}
 	else if(arrayword.indexOf(arrayrand)==3)
 	{
-		document.getElementById("hint").innerHTML="Hint:<br> What am I if I bleed burnt orange?<br><img src='assets/images/hint4.png' alt='hint4' id='hint4'>"
+		document.getElementById("hint").innerHTML="<h3>HINT:</h3> What am I if I bleed burnt orange?<br><img src='assets/images/hint4.png' alt='hint4' id='hint4'>"
 		//console.log("inside the loop for index 3"+arrayword.indexOf(arrayrand))
 	}
 	else if (arrayword.indexOf(arrayrand)==4)
 	{
-		document.getElementById("hint").innerHTML="Hint:<br> I'm what..? Some people call it deer stuck in the headlights.<br><img src='assets/images/hint5.png' alt='hint5' id='hint5'>"
+		document.getElementById("hint").innerHTML="<h3>HINT:</h3> I'm what..? Some people call it deer stuck in the headlights.<br><img src='assets/images/hint5.png' alt='hint5' id='hint5'>"
 		//console.log("inside the loop for index4"+arrayword.indexOf(arrayrand))
 
 	}
 	else if (arrayword.indexOf(arrayrand)==5)
 	{
-		document.getElementById("hint").innerHTML="Hint:<br> What is in this picture that rarely happens in Austin?<br><img src='assets/images/hint6.png' alt='hint6' id='hint6'>"
+		document.getElementById("hint").innerHTML="<h3>HINT:</h3> What is in this picture that rarely happens in Austin?<br><img src='assets/images/hint6.png' alt='hint6' id='hint6'>"
 
 	}
 	else if (arrayword.indexOf(arrayrand)==6)
 	{
-		document.getElementById("hint").innerHTML="Hint:<br> I LOVE TOT, but you can barely see it<br><img src='assets/images/hint7.png' alt='hint7' id='hint7'>"
+		document.getElementById("hint").innerHTML="<h3>HINT:</h3> I LOVE TOT, but you can barely see it<br><img src='assets/images/hint7.png' alt='hint7' id='hint7'>"
 
 	}
 	else if (arrayword.indexOf(arrayrand)==7)
 	{
-		document.getElementById("hint").innerHTML="Hint:<br> Austin is the capital for what?<br><img src='assets/images/hint8.png' alt='hint8' id='hint8'>"
+		document.getElementById("hint").innerHTML="<h3>HINT:</h3> Austin is the capital for what?<br><img src='assets/images/hint8.png' alt='hint8' id='hint8'>"
 
 	}
 	else if (arrayword.indexOf(arrayrand)==8)
 	{
-		document.getElementById("hint").innerHTML="Hint:<br> Do you like my Halloween costume? Guess who I am (may the force be with you)?<br><img src='assets/images/hint9.png' alt='hint9' id='hint9'>"
+		document.getElementById("hint").innerHTML="<h3>HINT:</h3> Do you like my Halloween costume? <br>Guess who I am (may the force be with you)?<br><img src='assets/images/hint9.png' alt='hint9' id='hint9'>"
 
 	}
 	else if (arrayword.indexOf(arrayrand)==9)
 	{
-		document.getElementById("hint").innerHTML="Hint:<br> Guess my mood? There is a cat I would love to meet!<br><img src='assets/images/hint10.png' alt='hint10' id='hint10'>"
+		document.getElementById("hint").innerHTML="<h3>HINT:</h3> Guess my mood? There is a cat I would love to meet!<br><img src='assets/images/hint10.png' alt='hint10' id='hint10'>"
 
 	}
 	else if (arrayword.indexOf(arrayrand)==10)
 	{
-		document.getElementById("hint").innerHTML="Hint:<br> If I am not awake, then what am I doing?<br><img src='assets/images/hint11.png' alt='hint11' id='hint11'>"
+		document.getElementById("hint").innerHTML="<h3>HINT:</h3> If I am not awake, then what am I doing?<br><img src='assets/images/hint11.png' alt='hint11' id='hint11'>"
 
 	}
 	else if (arrayword.indexOf(arrayrand)==11)
 	{
-		document.getElementById("hint").innerHTML="Hint:<br> I want to play, but what is my mom holding?<br><img src='assets/images/hint12.png' alt='hint12' id='hint12'>"
+		document.getElementById("hint").innerHTML="<h3>HINT:</h3> I want to play, but what is my mom holding?<br><img src='assets/images/hint12.png' alt='hint12' id='hint12'>"
 
 	}
-	//
 }
 
-//when you want to work on img change
-/*
-function imgchange()
-{
-document.getElementById("myAnchor").innerHTML="<img src='https://media1.tenor.com/images/cc7c1a94f9697255c66ae7c8eb3f5777/tenor.gif?itemid=5452691'>"
-
-}
-
-myimg();
-*/
 
 
