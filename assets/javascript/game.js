@@ -1,6 +1,6 @@
 //create a word array
 //sceret words
-var arrayword = ["twins", "hungry", "doughnut", "longhorn", "shoes", "snow", "tounge", "music", "yoda", "grumpy", "sleeping", "drink"];
+var arrayword = ["twins", "hungry", "doughnut", "longhorn", "confused", "snow", "tounge", "music", "yoda", "grumpy", "sleeping", "drink"];
 //creates an array of the secret array
 var arrayrand;
 //creates an array for the user
@@ -28,7 +28,7 @@ console.log(arrayrand);
 //gets user to guess when the user presses a key
 document.onkeyup = function()
 {
-		//waits for user input and checks if there are guesses left
+	//waits for user input and checks if there are guesses left
 	if(counter>0)
 	{
 		//gets the user input and converts the guess to lowercase
@@ -186,66 +186,66 @@ function imgchange()
 	if(arrayword.indexOf(arrayrand)==0)
 	{
 		console.log("inside the loop"+arrayword.indexOf(arrayrand))
-		document.getElementById("hint").innerHTML="Hint: are you seeing double?<br><img src='assets/images/hint1.png' alt='hint1' id='hint1'>"
+		document.getElementById("hint").innerHTML="Hint:<br> are you seeing double?<br><img src='assets/images/hint1.png' alt='hint1' id='hint1'>"
 
 	}
 	else if(arrayword.indexOf(arrayrand)==1)
 	{
 		console.log("inside the loop"+arrayword.indexOf(arrayrand))
-		document.getElementById("hint").innerHTML="Hint: I love TacoDeli, if I'm not Hangry, I am.. what?<br><img src='assets/images/hint2.png' alt='hint2' id='hint2'>"
+		document.getElementById("hint").innerHTML="Hint:<br> I love TacoDeli, if I'm not Hangry, I am.. what?<br><img src='assets/images/hint2.png' alt='hint2' id='hint2'>"
 
 
 	}
 	else if(arrayword.indexOf(arrayrand)==2)
 	{
 		console.log("inside the loop"+arrayword.indexOf(arrayrand))
-		document.getElementById("hint").innerHTML="Hint: My human says this is a google mini and not a.. what?<br><img src='assets/images/hint3.png' alt='hint3' id='hint3'>"
+		document.getElementById("hint").innerHTML="Hint:<br> My human says this is a google mini and not a.. what?<br><img src='assets/images/hint3.png' alt='hint3' id='hint3'>"
 
 	}
 	else if(arrayword.indexOf(arrayrand)==3)
 	{
-		document.getElementById("hint").innerHTML="Hint: My human says this is a google mini and not a.. what?<br><img src='assets/images/hint4.png' alt='hint4' id='hint4'>"
+		document.getElementById("hint").innerHTML="Hint:<br> What am I if I bleed burnt orange?<br><img src='assets/images/hint4.png' alt='hint4' id='hint4'>"
 		//console.log("inside the loop for index 3"+arrayword.indexOf(arrayrand))
 	}
 	else if (arrayword.indexOf(arrayrand)==4)
 	{
-		document.getElementById("hint").innerHTML="Hint: I'm what..? Some people call it deer stuck in the headlights.<br><img src='assets/images/hint5.png' alt='hint5' id='hint5'>"
+		document.getElementById("hint").innerHTML="Hint:<br> I'm what..? Some people call it deer stuck in the headlights.<br><img src='assets/images/hint5.png' alt='hint5' id='hint5'>"
 		//console.log("inside the loop for index4"+arrayword.indexOf(arrayrand))
 
 	}
 	else if (arrayword.indexOf(arrayrand)==5)
 	{
-		document.getElementById("hint").innerHTML="Hint: What is in this picture that rarely happens in Austin?<br><img src='assets/images/hint6.png' alt='hint6' id='hint6'>"
+		document.getElementById("hint").innerHTML="Hint:<br> What is in this picture that rarely happens in Austin?<br><img src='assets/images/hint6.png' alt='hint6' id='hint6'>"
 
 	}
 	else if (arrayword.indexOf(arrayrand)==6)
 	{
-		document.getElementById("hint").innerHTML="Hint: I LOVE TOT, but you can barely see it<br><img src='assets/images/hint7.png' alt='hint7' id='hint7'>"
+		document.getElementById("hint").innerHTML="Hint:<br> I LOVE TOT, but you can barely see it<br><img src='assets/images/hint7.png' alt='hint7' id='hint7'>"
 
 	}
 	else if (arrayword.indexOf(arrayrand)==7)
 	{
-		document.getElementById("hint").innerHTML="Hint: Austin is the capital for what?<br><img src='assets/images/hint8.png' alt='hint8' id='hint8'>"
+		document.getElementById("hint").innerHTML="Hint:<br> Austin is the capital for what?<br><img src='assets/images/hint8.png' alt='hint8' id='hint8'>"
 
 	}
 	else if (arrayword.indexOf(arrayrand)==8)
 	{
-		document.getElementById("hint").innerHTML="Hint: Do you like my Halloween costume? Guess who I am (may the force be with you)?<br><img src='assets/images/hint9.png' alt='hint9' id='hint9'>"
+		document.getElementById("hint").innerHTML="Hint:<br> Do you like my Halloween costume? Guess who I am (may the force be with you)?<br><img src='assets/images/hint9.png' alt='hint9' id='hint9'>"
 
 	}
 	else if (arrayword.indexOf(arrayrand)==9)
 	{
-		document.getElementById("hint").innerHTML="Hint: Guess my mood? There is a cat I would love to meet!<br><img src='assets/images/hint10.png' alt='hint10' id='hint10'>"
+		document.getElementById("hint").innerHTML="Hint:<br> Guess my mood? There is a cat I would love to meet!<br><img src='assets/images/hint10.png' alt='hint10' id='hint10'>"
 
 	}
 	else if (arrayword.indexOf(arrayrand)==10)
 	{
-		document.getElementById("hint").innerHTML="Hint: If I am not awake, then what am I doing?<br><img src='assets/images/hint11.png' alt='hint11' id='hint11'>"
+		document.getElementById("hint").innerHTML="Hint:<br> If I am not awake, then what am I doing?<br><img src='assets/images/hint11.png' alt='hint11' id='hint11'>"
 
 	}
 	else if (arrayword.indexOf(arrayrand)==11)
 	{
-		document.getElementById("hint").innerHTML="Hint: I want to play, but what is my mom holding?<br><img src='assets/images/hint12.png' alt='hint12' id='hint12'>"
+		document.getElementById("hint").innerHTML="Hint:<br> I want to play, but what is my mom holding?<br><img src='assets/images/hint12.png' alt='hint12' id='hint12'>"
 
 	}
 	//

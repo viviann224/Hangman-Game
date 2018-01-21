@@ -24,26 +24,42 @@ console.log("current score: "+score);
 	<div id="title">
 		<h1>Hangman</h1>
 		<h2>Bulldog Moods</h2>
+		<br><hr>
 	</div>
-	<p>Welcome to hangman bulldog edition. Please choose a letter to get started.</p>
-	<br>The game is over when you complete the word or run out of guesses.
-	<br>You have max 10 guesses
-	<div id="row">
-		<div id="col-md-8">
+	<div id="welcome">
+		<div class="row">
+			<div id="intro" class="col-sm-6">
+			<h3>Welcome to hangman <br><span>{</span>Bulldog edition<span>}</span></h3> <br>Please choose a letter to get started.
+			</div>
+		<div class="col-sm-6">
+			<h3>RULES:</h3>
+		The game is over when you complete the word or run out of guesses.You have max 10 guesses. Good luck!
+		</div>
+		</div>
+		<hr>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-1">
+		</div>
+		<div class="col-md-7">
 			<div id="hint"></div>
 		</div>
-		<div id="col-md-4">
+		<div class="col-md-3">
 			<div id="score"></div>
 			<div id=guessleft></div>
+		</div>
+		<div class="col-md-1">
 		</div>
 
 	</div>
 		<br>
 	<div id="game">
 	</div>
+	<div id="winner"></div>
 	<div id="dash"></div>
 	<div id="intro"></div>
-	<div id="winner"></div>
+	
 	
 
 	
